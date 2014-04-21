@@ -1,0 +1,33 @@
+
+#syntax : "shapeless(NAME1,META) > (NAME2,AMOUNT,META)"
+
+
+
+#Reliquary############################################
+*alkahest=27530
+######################################################
+shapeless(alkahest,256) > (alkahest,1,0)
+
+#IC2/Gregtech#########################################
+*lapotron=30240
+*advancedLappack=30480
+*energypack=30034
+*ironPlateIC=30041,4
+*ironPlateRC=7802
+*nightvisionGoogles=30078
+*quantumHelmet=30174
+*electricJetpack=30209
+*GTmachine=4059
+*ICmachine=4034
+######################################################
+shapeless(lapotron,26) > (lapotron,1,0)
+shapeless(advancedLappack,26) > (advancedLappack,1,0)
+shapeless(energypack,26) > (energypack,1,0)
+shapeless(ironPlateRC) > (ironPlateIC,1)
+shapeless(nightvisionGoogles,26) > (nightvisionGoogles,1,0)
+shapeless(quantumHelmet,26) > (quantumHelmet,1,0)
+shapeless(electricJetpack,26) > (electricJetpack,1,0)
+shapeless(GTmachine,50) > (ICmachine,1,3)  #macerator
+shapeless(GTmachine,52) > (ICmachine,1,5)  #compressor
+shapeless(GTmachine,51) > (ICmachine,1,4)  #extractor
+shapeless(GTmachine,53) > (ICmachine,1,11) #recycler
